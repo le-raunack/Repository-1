@@ -1,0 +1,389 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	font-family:verdana;
+	text-decoration:none;
+}
+
+#header
+{
+	width:90%;
+	text-align:center;
+	margin:0px auto;
+	height:50px;
+}
+
+#header .logo
+{
+	float:left;
+	width:40%;
+	height: 10px;
+	margin:5px auto;
+}
+
+#header .menu
+{
+	float:right;
+	margin:13px auto;
+}
+
+#header .menu ul li
+{
+	display:inline;
+	width:60%;
+	padding:18px 25px;
+}
+
+#header .menu ul li a
+{
+	color:black;
+}
+
+.active {
+	background:lightgreen;
+}
+
+#props{
+	width:90%;
+	height:50px;
+	margin:10px auto;
+}
+
+#props .category{
+	padding:10px;
+	width:30%;
+	float:left;
+	text-align:center;
+}
+
+#props .category ul li{
+	display:inline;
+	padding:5px 20px;
+	border-bottom:solid gray 3px;
+}
+
+#props .category .catact
+{
+	border-bottom:green solid;
+	background:lightgreen;
+}
+
+#props .category ul li a
+{
+	text-decoration:none;
+	color:black;
+}
+
+#props .drop{
+	margin:0px 5px;
+	float:left;
+	width:30%;
+	padding:9px;
+}
+
+#listings
+{
+	width:70%;
+	/*border:solid 1px;*/
+	height:1410px;
+	display:inline-block;
+}
+
+#listings .row1
+{
+	padding:5px 0px;
+	width:100%;
+	margin:0px 0px 0px 20px;
+}
+
+#listings .row1 img:hover
+{
+	transform:scale(1.03,1.03);
+	transition:all 0.5s;
+}
+	
+#listings .row1 img
+{
+	border:solid 1px;
+}
+
+#signup
+{
+	width:20%;
+	/*border:solid 1px;*/
+	display: inline-block; 
+	vertical-align: top;
+}
+
+#signup legend
+{
+	margin:0px 30px;
+}
+
+#signup form input
+{
+	padding:10px 15px;
+	margin:5px 5px;
+}
+
+#signup form input[type="radio"]
+{
+	margin:10px 10px;
+}
+
+#signup .news
+{
+	margin:50px 0px 0px;
+}
+
+#signup .news h4
+{
+	border-bottom:solid 2px;
+	color:blue;
+	font-size:25;
+	transition:all 0.2s;
+}
+
+#signup .news h4:hover
+{
+	text-shadow:2px 2px 8px orange;
+	transition:all 0.2s;
+}
+
+#signup p{
+	text-align:justify;
+	padding:10px 0px 7px 0px;
+	border-bottom:solid 1px;
+}
+
+#signup .news p:hover
+{
+	transform:scale(1.08,1.08);
+	transition:all 0.2s;
+}
+
+#footer{
+	background:black;
+	color:white;
+	height:140px;
+}
+#contactus
+{
+	margin:10px 0px;
+	float:left;
+	padding:0px 10px 0px 0px;
+	border-right:solid white 2px;
+}
+
+#contactus h4:hover{
+	text-shadow:2px 2px 8px orange;
+	transition:all 0.2s;
+}
+
+#contactus p
+{
+	line-height:25px;
+	font-size:15px;
+	margin:10px 0px;
+}
+
+#footer .social
+{
+	float:left;
+	margin:10px 15px;
+	padding:0px 10px 0px 0px;
+	height:116px;
+	border-right:solid white 2px;
+}
+
+#footer .social h4:hover{
+	text-shadow:2px 2px 5px orange;
+	transition:all 0.2s;
+}
+
+#footer .social p
+{
+	line-height:25px;
+	font-size:15px;
+	margin:10px 0px 0px 0px;
+}
+
+@media (max-width:320px)
+{
+	#header{
+		height:95px;
+	}
+	#header .logo{
+		margin: 10px 0px 25px;
+		width:100%;
+	}
+	#header .menu{
+		width:100%;
+		font-size:14px;
+	}
+	
+	#header .menu ul li
+	{
+		margin:10px 0px;
+		padding:5px 5px;
+	}
+	
+	#props .category{
+		font-size:14px;
+		width:100%;
+		text-align:center;
+		padding:10px 0px;
+	}
+	#props .drop{
+		display:none;
+	}
+	
+	#listings{
+		display:block;
+		width:100%;
+		height:2125px;
+	}
+	#listings .row1{
+		margin:5px auto;
+		text-align:center;
+	}
+	#listings .row1 img{
+		margin:10px 0px;
+	}
+	#listings .row1 img[src="images/house7.jpg"],
+	#listings .row1 img[src="images/house8.jpg"],
+	#listings .row1 img[src="images/house9.jpg"],
+	#listings .row1 img[src="images/house10.jpg"],
+	#listings .row1 img[src="images/house11.jpg"],
+	#listings .row1 img[src="images/house12.jpg"]{
+		display:none;
+	}
+	#signup {
+		width:90%;
+		display:block;
+		margin:20px 0px 20px 10px;
+	}
+	#footer{
+		width:100%;
+		height:300px;
+		margin:10px 0px 0px 0px;
+	}
+	#contactus{
+		width:100%;
+		border:none;
+		margin:15px auto;
+	}
+	#contactus h4, #footer .social h4
+	{
+		text-align:center;
+	}
+	#footer .social{
+		border:none;
+		margin:0px auto;
+		width:100%;
+	}
+	#contactus{
+		border:none;
+	}
+	.active{
+		background:none;
+		border-bottom:lightgreen solid;
+	}
+}
+
+@media (min-width:321px) and (max-width:720px)
+{
+	
+	#header{
+		height:105px;
+	}
+	#header .logo{
+		margin: 5px 0px 25px;
+		width:100%;
+	}
+	#header .menu{
+		width:100%;
+		font-size:20px;
+	}
+	
+	#header .menu ul li
+	{
+		margin:10px 0px;
+		padding:10px 10px;
+	}
+	
+	#props .category{
+		font-size:20px;
+		width:100%;
+		text-align:center;
+		padding:10px 0px;
+	}
+	#props .drop{
+		display:none;
+	}
+	
+	#listings{
+		display:block;
+		width:100%;
+		height:1125px;
+	}
+	#listings .row1{
+		margin:5px auto;
+		text-align:center;
+	}
+	#listings .row1 img{
+		margin:10px 0px;
+		width:30%;
+	}
+	/*#listings .row1 img[src="images/house7.jpg"],
+	#listings .row1 img[src="images/house8.jpg"],
+	#listings .row1 img[src="images/house9.jpg"],
+	#listings .row1 img[src="images/house10.jpg"],
+	#listings .row1 img[src="images/house11.jpg"],
+	#listings .row1 img[src="images/house12.jpg"]{
+		display:none;
+	}*/
+	#signup {
+		width:100%;
+		display:block;
+		margin:0px auto 25px;
+		height:350px;
+	}
+	#signup .form{
+		width:50%;
+		margin:10px auto;
+	}
+	#signup .form input{
+		padding:15px 25px;
+	}
+	#signup .news{
+		display:none;
+	}
+	#footer{
+		width:100%;
+		height:300px;
+		margin:10px 0px 0px 0px;
+	}
+	#contactus{
+		width:100%;
+		border:none;
+		margin:15px auto;
+	}
+	#contactus h4, #footer .social h4
+	{
+		text-align:center;
+	}
+	#footer .social{
+		border:none;
+		margin:0px auto;
+		width:100%;
+	}
+	#contactus{
+		border:none;
+	}
+	.active{
+		background:none;
+		border-bottom:lightgreen solid;
+	}
+}

@@ -1,0 +1,29 @@
+@charset "utf-8";
+.wall
+{
+	height: 585px;
+	overflow: hidden;
+	margin: 0px;
+}
+
+.wall img
+{
+	width: 100%;
+	position: relative;
+}
+.wallcap
+{
+	position: absolute;
+	top: 30%;
+	left: 10%;
+	color: white;
+	font-size: 75px;
+}
+.subwallcap
+{
+	position: absolute;
+	top: 45%;
+	left: 50%;
+	color: white;
+	font-size: 20px;
+}

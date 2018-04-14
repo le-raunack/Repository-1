@@ -1,0 +1,31 @@
+@keyframes opac{
+	0%{opacity:0.1;}
+	100%{opacity:1;}
+}
+
+#listings .row1{
+	animation:opac 0.5s ease-out;
+}
+
+@media (max-width:320px)
+{
+	#signup
+	{
+		display:none;
+	}
+	
+	#listings
+	{
+		height:4300px;
+	}
+}
+
+@media (min-width:321px) and (max-width:720px)
+{
+	#signup{
+		display:none;
+	}
+	#listings{
+		height:1125px;
+	}
+}

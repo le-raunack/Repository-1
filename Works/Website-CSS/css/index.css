@@ -1,0 +1,147 @@
+*
+{
+	margin:0px;
+	padding:0px;
+	box-sizing:border-box;
+}
+
+/*---------------------------All Pages---------------------------*/
+
+body
+{
+	background:url(../images/d.jpg) no-repeat -350px 50px;
+}
+h1
+{
+	text-align:center;
+	background:/*lightgreen*/black;
+	color:#ffffff;
+	font-family:comic sans ms;
+	padding:8px;
+}
+#ul1 
+{
+	background:/*#65C42B*/gray;
+	margin:0px auto;
+	width:auto;
+	text-align:center;
+	padding:10px;
+}
+#li:hover
+{
+	text-decoration:none;
+	background:/*green*/lightgray;
+	cursor:pointer;
+	color:white;
+}
+#li 
+{
+	text-align:center;
+	font-family:verdana;
+	padding:10px;
+	margin:0 auto;
+	display:inline;
+}
+#ul1 #li a
+{
+	text-decoration:none;
+	color:/*black*/white;
+}
+#ul1 #li a:hover
+{
+	text-decoration:none;
+	color:/*white*/black;
+}
+
+.par1
+{
+	/*background:#E9EEE6;*/
+	background:url(../images/ketsu.png) no-repeat -240px -450px ;
+	border:groove black;
+	text-align:justify;
+	margin:50px 100px 0px 100px;
+	padding:10px;
+	font-family:verdana;
+	font-size:15;
+	word-spacing:2;
+}
+.ol1
+{
+	margin:10px 0px 10px 40px;
+	font-family:verdana;
+}
+.ol1 li a
+{
+	text-decoration:none;
+	color:purple;
+}
+/*---------------------------Artworks---------------------------*/
+
+.tab1
+{
+	text-align:center;
+	width:50%;
+	margin:10 auto;
+	border:solid white 5px;
+	padding:5px;
+	background:black;
+}
+.tab2
+{
+	margin:0 auto;
+	border:solid white 5px;
+	text-align:center;
+	width:50%;
+}
+.cap
+{
+	font-family:verdana;
+	font-size:20;
+}
+
+/*-----------------------Social------------------------------------*/
+
+.ul4 .li3 
+{
+	margin:20 auto;
+	text-align:center;
+	padding:10px;
+	font-family:verdana;
+	width:50%;
+	list-style:none;
+}
+.ul4 .li3 a
+{
+	text-decoration:none;
+	color:black;
+}
+.ul4 .li3 .a1:hover
+{
+	background:lightblue;
+	color:white;
+	padding:10px 100px;
+	border:1px groove black;
+}
+.ul4 .li3 .a2:hover
+{
+	background:black;
+	color:red;
+	padding:10px 100px;
+	border:1px groove black;
+}
+
+.ul4 .li3 .a3:hover
+{
+	background:darkblue;
+	color:white;
+	padding:10px 100px;
+	border:1px groove black;
+}
+
+.ul4 .li3 .a4:hover
+{
+	background:orangered;
+	color:white;
+	padding:10px 100px;
+	border:1px groove black;
+}

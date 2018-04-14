@@ -1,0 +1,66 @@
+#intro
+{
+	width:90%;
+	margin:0 auto;
+	text-align:center;
+}
+
+#intro h3
+{
+	margin:10px 0px;
+	color:green;
+}
+
+#intro p{
+	line-height:30px;
+	word-spacing:3px;
+}
+
+#agents
+{
+	width:90%;
+	margin:20px auto;
+	height:850px;
+	text-align:center;
+}
+
+@keyframes opac{
+	0%{opacity:0.1;}
+	100%{opacity:1;}
+}
+
+#agents .age0
+{
+	float:left;
+	width:33%;
+	transition:all 0.5s;
+	margin:20px 0px;
+	padding:15px 0px;
+	animation:opac 1.2s ease-out;
+}
+
+#agents .age0:hover
+{
+	transform:scale(1.15,1.15);
+	transition:all 0.5s;
+}
+
+@media (max-width:320px)
+{
+	#intro p
+	{
+		text-align:justify;
+	}
+	
+	#agents
+	{
+		width:90%;
+		margin:0px auto;
+		height:2575px;
+	}
+	
+	#agents .age0
+	{
+		width:100%;
+	}
+}
