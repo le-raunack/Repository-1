@@ -362,12 +362,3 @@ footer h3
 		height: 5350px;
 	}
 }
-
-@media (min-width:900px) and (max-width:1080px)
-{
-	main
-	{
-		widht:80%;
-		margin:0px auto;
-	}
-}
