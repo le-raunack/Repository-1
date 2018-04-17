@@ -241,7 +241,7 @@ footer h3
 	color: black;
 }
 
-@media (max-width:320px)
+@media (max-width:375px)
 {	
 	.btt
 	{
@@ -249,7 +249,7 @@ footer h3
 	}
 	main
 	{
-		height: 9250px;
+		height: 8450px;
 	}
 	
 	nav
@@ -277,7 +277,7 @@ footer h3
 	
 	#aboutus
 	{
-		height: 3800px;
+		height: 3475px;
 	}
 	
 	#aboutus .subimg
@@ -318,7 +318,7 @@ footer h3
 	}
 }
 
-@media (min-width:321px) and (max-width:720px)
+@media (min-width:376px) and (max-width:720px)
 {
 	.mainimg{
 		height: 150px;
