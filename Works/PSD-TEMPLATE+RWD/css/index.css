@@ -209,7 +209,7 @@
 	margin:10px 0px 0px 0px;
 }
 
-@media (max-width:320px)
+@media (max-width:375px)
 {
 	#header{
 		height:95px;
@@ -262,7 +262,7 @@
 	#signup {
 		width:90%;
 		display:block;
-		margin:20px 0px 20px 10px;
+		margin:25px auto 10px;
 	}
 	#footer{
 		width:100%;
@@ -292,7 +292,7 @@
 	}
 }
 
-@media (min-width:321px) and (max-width:720px)
+@media (min-width:376px) and (max-width:720px)
 {
 	
 	#header{
@@ -336,14 +336,6 @@
 		margin:10px 0px;
 		width:30%;
 	}
-	/*#listings .row1 img[src="images/house7.jpg"],
-	#listings .row1 img[src="images/house8.jpg"],
-	#listings .row1 img[src="images/house9.jpg"],
-	#listings .row1 img[src="images/house10.jpg"],
-	#listings .row1 img[src="images/house11.jpg"],
-	#listings .row1 img[src="images/house12.jpg"]{
-		display:none;
-	}*/
 	#signup {
 		width:100%;
 		display:block;

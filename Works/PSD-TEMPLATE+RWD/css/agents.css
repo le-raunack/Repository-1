@@ -45,7 +45,7 @@
 	transition:all 0.5s;
 }
 
-@media (max-width:320px)
+@media (max-width:375px)
 {
 	#intro p
 	{

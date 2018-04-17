@@ -63,35 +63,40 @@
 	color:black;
 }
 
-@media (max-width:320px)
+@media (max-width:375px)
 {
-	#homelist{
-		height:2500px;
-		
+	#homelist
+	{
+		height: 4400px;
+		width: 90%;
+		margin: 0px auto;
 	}
 	
-	.home-n
+	#homelist .home-n
 	{
 		float: none;
-		width: 100%;
+		width: 90%;
+		margin: 0px auto;
 	}
 	
-	.home-n img
+	#homelist .home-n img
 	{
 		width: 100%;
 		float: none;
 		margin: 0px auto;
 	}
 	
-	#pages
-	{
-		height: 100px;
-	}
-	#pages ul
-	{
+	#pages ul li
+ 	{
 		float: none;
-		height: 100px;
-		display: block;
+		margin: 10px 0px;
+		width:100%;
+		display: inline;
+	}
+	
+	#footer
+	{
+		margin: 40px 0px 0px;
 	}
 
 }

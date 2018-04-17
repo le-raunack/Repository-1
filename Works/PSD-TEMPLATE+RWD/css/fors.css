@@ -7,7 +7,7 @@
 	animation:opac 0.5s ease-out;
 }
 
-@media (max-width:320px)
+@media (max-width:375px)
 {
 	#signup
 	{
@@ -20,7 +20,7 @@
 	}
 }
 
-@media (min-width:321px) and (max-width:720px)
+@media (min-width:376px) and (max-width:720px)
 {
 	#signup{
 		display:none;
