@@ -249,7 +249,7 @@ footer h3
 	}
 	main
 	{
-		height: 8000px;
+		height: 8450px;
 	}
 	
 	nav
@@ -317,48 +317,3 @@ footer h3
 		right: 5%;
 	}
 }
-
-/*@media (min-width:376px) and (max-width:720px)
-{
-	.mainimg{
-		height: 150px;
-		overflow: hidden;
-	}
-	
-	#aboutus
-	{
-		height: 2325px;
-	}
-	
-	.subimg
-	{
-		width: 90%;
-		margin: 0px auto;
-		border: none;
-		float: none;
-		height: 400px;
-	}
-	
-	#achieve
-	{
-		height: 1125px;
-	}
-	
-	.trophy
-	{
-		float: left;
-		width: 50%;
-		margin: 0px auto;
-		height: 350px;
-	}
-	
-	.form input, .form textarea
-	{
-		width: 100%;
-	}
-	
-	main
-	{
-		height: 5350px;
-	}
-}*/
