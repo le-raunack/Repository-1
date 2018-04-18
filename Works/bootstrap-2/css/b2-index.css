@@ -62,3 +62,42 @@ main{
 	padding: 10px;
 	animation: slideRight 2s forwards ease-out;
 }
+
+.cont
+{
+	background: lightgray;
+	width: 45%;
+	margin: 0px 10px;
+	border: 5px gray solid;
+	float: left;
+}
+
+input, button
+{
+	margin: 5px 10px;
+}
+
+.feed, select, textarea
+{
+	resize: none;
+	width: 90%;
+	padding: 10px;
+	margin: 10px 10px;
+}
+
+.best
+{
+	float: right;
+	width: 50%;
+	margin: 0px auto;
+	border-left: 1px solid;
+	height: 450px;
+	padding: 0px 20px;
+}
+
+.best img
+{
+	width: 92px;
+	text-align: center;
+	height: 92px;
+}
