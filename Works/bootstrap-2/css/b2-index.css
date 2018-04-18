@@ -100,4 +100,12 @@ input, button
 	width: 92px;
 	text-align: center;
 	height: 92px;
+	transform: scale(1.0,1.0);
+	transition: 1s;
+}
+
+.best img:hover
+{
+	transform: scale(1.15,1.15);
+	transition: 1s;
 }
