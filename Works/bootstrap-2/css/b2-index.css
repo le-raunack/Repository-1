@@ -72,6 +72,12 @@ main{
 	float: left;
 }
 
+@keyframes Opac
+{
+	from{opacity: 0;}
+	to{opacity: 1;}
+}
+
 input, button
 {
 	margin: 5px 10px;
