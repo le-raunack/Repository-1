@@ -115,3 +115,12 @@ input, button
 	transform: scale(1.15,1.15);
 	transition: 1s;
 }
+
+@media (min-width:1439px) and (max-width:1440px)
+{
+	.aboutus
+	{
+		width: 70%;
+		margin: 30px auto 10px;
+	}
+}
