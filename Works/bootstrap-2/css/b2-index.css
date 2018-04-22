@@ -133,15 +133,17 @@ input, button
 		display: inline;
 	}
 	
-	.cont, .best
+	.cont
 	{
-		width: 100%;
-		margin: 15px 0px;
+		width: 90%;
+		margin: 15px auto 0px;
 	}
 	
 	.best
 	{
 		border: none;
+		width: 100%;
+		margin: 15px auto;
 	}
 
 }
