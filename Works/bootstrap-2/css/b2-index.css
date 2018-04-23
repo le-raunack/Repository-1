@@ -136,14 +136,14 @@ input, button
 	.cont
 	{
 		width: 90%;
-		margin: 15px auto 0px;
+		margin: 15px;
 	}
 	
 	.best
 	{
 		border: none;
 		width: 100%;
-		margin: 15px auto;
+		margin: 10px auto;
 	}
 	
 	.left, .right
